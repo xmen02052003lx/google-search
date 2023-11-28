@@ -1,0 +1,176 @@
+/* public/css/styles.css */
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 20px;
+}
+
+/* Center the "Google-Like Search" text */
+#google-like-search {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#searchForm {
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* public/css/styles.css */
+
+/* ... (your existing styles) */
+
+/* Search button styling */
+#searchButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    background-color: #4caf50; /* Green color, you can change it to your preferred color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#searchButton:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
+
+#keyword {
+    padding: 10px;
+    font-size: 18px;
+    width: 300px; /* Adjust the width as needed */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#searchResults {
+    margin-top: 20px;
+}
+
+/* Suggestion list styling */
+.suggestions {
+    /* position: absolute; */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 150px;
+    text-align: center;
+    margin: 0 auto;
+    /* overflow-y: auto; */
+    z-index: 1;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.suggestion-item {
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    /* background-color: #f4f4f4; */
+    text-decoration: underline;
+}
+
+/* Search result styling */
+.search-result-container {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.search-result-container:hover {
+    background-color: #f4f4f4;
+}
+
+.search-result h3 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 20px;
+}
+
+.search-result p {
+    color: #555;
+    font-size: 16px;
+}
+
+/* Link styling */
+.search-result a {
+    color: #0366d6;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.search-result a:hover {
+    text-decoration: underline;
+    color: #0540a0;
+}
+
+/* Animation effect for the page */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* new */
+/* public/css/styles.css */
+
+body {
+    font-family: "Poppins", sans-serif; /* Use a Google Font or a font of your choice */
+    margin: 20px;
+}
+
+/* ... (your existing styles) */
+
+/* Center the "Google-Like Search" text */
+#google-like-search {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#searchForm {
+    text-align: center;
+}
+
+#keyword {
+    padding: 10px;
+    font-size: 18px;
+    width: 300px; /* Adjust the width as needed */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: inline-block; /* Align with the search result */
+}
+
+/* Search button styling */
+#searchButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif; /* Use the same font-family for consistency */
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#searchButton:hover {
+    background-color: #45a049;
+}
+
+/* Align search results with search form */
+/* #searchResults {
+    text-align: center;
+} */
